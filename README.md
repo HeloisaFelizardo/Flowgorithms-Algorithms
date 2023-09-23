@@ -1,4 +1,4 @@
-# Algorithms com Fluxogramas
+# Algoritmos com Fluxogramas
 Algoritmos criados com o programa [Flowgorithm](http://flowgorithm.org/).
 
 Flowgorithm - Flowchart Programing Languages [Download](http://flowgorithm.org/download/index.html)
