@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-03 12:40:42 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjEyOjE2OjM0ICI7MjgzMA=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjEyOjQwOjQyICI7MTsyOTM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F, C" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; a temperatura em Farenheit? &quot;" newline="True"/>
+            <input variable="F"/>
+            <assign variable="C" expression="((F - 32) * 5) / 9"/>
+            <output expression="&quot;A temperatura convertida para celsius &#233;: &quot; &amp; C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

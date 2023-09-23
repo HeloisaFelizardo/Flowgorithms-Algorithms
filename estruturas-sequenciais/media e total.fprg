@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-06 06:29:23 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDMtMDY7IjA1OjM2OjIzICI7MjgzMw=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDMtMDY7IjA2OjI5OjIzICI7MTsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <assign variable="total" expression="(nota1+nota2+nota3+nota4)"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

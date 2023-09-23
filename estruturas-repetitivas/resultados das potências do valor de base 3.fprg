@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-05 10:19:26 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMDU7IjA5OjU4OjA2ICI7Mjg0NQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMDU7IjEwOjE5OjI2ICI7NDsyOTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, R" type="Integer" array="False" size=""/>
+            <assign variable="I" expression="0"/>
+            <assign variable="R" expression="1"/>
+            <while expression="I &lt;= 15">
+                <output expression="R" newline="True"/>
+                <assign variable="R" expression="R * 3"/>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

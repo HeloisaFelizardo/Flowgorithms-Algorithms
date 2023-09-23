@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-03 01:46:18 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjAxOjIzOjAzICI7MjgyMg=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjAxOjQ2OjE4ICI7ODsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TEMPO, VELOCIDADE, DISTANCIA, LITROS, KmPorLitro" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o tempo de viagem em minutos? &quot;" newline="True"/>
+            <input variable="TEMPO"/>
+            <output expression="&quot;Qual &#233; a velocidade m&#233;dia (Km/h)? &quot;" newline="True"/>
+            <input variable="VELOCIDADE"/>
+            <output expression="&quot;Quantos Km/l faz seu autom&#243;vel? &quot;" newline="True"/>
+            <input variable="KmPorLitro"/>
+            <assign variable="DISTANCIA" expression="(TEMPO * VELOCIDADE) /100"/>
+            <assign variable="LITROS" expression="DISTANCIA / KmPorLitro"/>
+            <output expression="&quot;A velocidade m&#233;dia &#233;: &quot; &amp; VELOCIDADE &amp;&#13;&#10;&quot; Km/h.  O tempo gasto de viagem &#233;: &quot; &amp; TEMPO &amp;&#13;&#10;&quot; minutos.  A dist&#226;ncia percorrida &#233;: &quot; &amp; DISTANCIA &amp;&#13;&#10;&quot; Km.  A quantidade de litros usados para percorrer &quot; &amp; DISTANCIA &amp; &quot; Km  &#233; de &quot; &amp; LITROS &amp; &quot; litros.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

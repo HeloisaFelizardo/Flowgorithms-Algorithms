@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-27 11:06:32 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjc7IjEwOjQ5OjU1ICI7Mjg0NQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjc7IjExOjA2OjMyICI7NTsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I" type="Integer" array="False" size=""/>
+            <declare name="SOMA, NUMERO, MEDIA" type="Real" array="False" size=""/>
+            <assign variable="I" expression="0"/>
+            <assign variable="SOMA" expression="0"/>
+            <while expression="I &lt; 10">
+                <output expression="&quot;Digite um n&#250;mero decimal: &quot;" newline="True"/>
+                <input variable="NUMERO"/>
+                <assign variable="SOMA" expression="SOMA + NUMERO"/>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+            <output expression="&quot;O somat&#243;rio dos n&#250;meros &#233;: &quot; &amp; SOMA" newline="True"/>
+            <assign variable="MEDIA" expression="SOMA / I"/>
+            <output expression="&quot;A m&#233;dia dos n&#250;meros &#233;: &quot; &amp; MEDIA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

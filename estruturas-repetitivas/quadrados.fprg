@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-20 09:46:50 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0wOS0yMDsiMDk6Mjc6MTkgIjsyODE4"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0wOS0yMDsiMDk6NDY6NTAgIjs5OzI5MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, quadrado" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="15"/>
+            <while expression="i &lt;= 200">
+                <assign variable="quadrado" expression="i * i"/>
+                <output expression="&quot;O quadrado de &quot; &amp; i &amp; &quot; &#233;: &quot; &amp; quadrado" newline="True"/>
+                <assign variable="i" expression="i + 3"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

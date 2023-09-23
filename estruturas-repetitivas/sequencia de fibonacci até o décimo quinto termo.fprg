@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-15 01:42:03 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMTU7IjEyOjI5OjQ0ICI7Mjg0MA=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMTU7IjAxOjQyOjAzICI7NzsyOTQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, ATUAL, ANTERIOR, PROXIMO" type="Integer" array="False" size=""/>
+            <assign variable="ANTERIOR" expression="0"/>
+            <assign variable="ATUAL" expression="1"/>
+            <assign variable="I" expression="2"/>
+            <output expression="ANTERIOR" newline="True"/>
+            <output expression="ATUAL" newline="True"/>
+            <while expression="I &lt;= 15">
+                <assign variable="PROXIMO" expression="ATUAL + ANTERIOR"/>
+                <output expression="PROXIMO" newline="True"/>
+                <assign variable="ANTERIOR" expression="ATUAL"/>
+                <assign variable="ATUAL" expression="PROXIMO"/>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

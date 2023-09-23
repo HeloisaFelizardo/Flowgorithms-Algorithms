@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-03 02:03:26 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjAxOjQ2OjM5ICI7MjgzNg=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjAyOjAzOjI2ICI7NzsyOTQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PRESTACAO, VALOR, TAXA, TEMPO" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o valor da presta&#231;&#227;o? &quot;" newline="True"/>
+            <input variable="VALOR"/>
+            <output expression="&quot;Qual &#233; a taxa de juros em porcento(%)? &quot;" newline="True"/>
+            <input variable="TAXA"/>
+            <output expression="&quot;Qual &#233; o tempo de atraso em meses? &quot;" newline="True"/>
+            <input variable="TEMPO"/>
+            <assign variable="PRESTACAO" expression="VALOR + (VALOR * TAXA / 100) * TEMPO"/>
+            <output expression="&quot;O valor da presta&#231;&#227;o atualizada com juros &#233; de: &quot; &amp; PRESTACAO &amp; &quot; reais.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

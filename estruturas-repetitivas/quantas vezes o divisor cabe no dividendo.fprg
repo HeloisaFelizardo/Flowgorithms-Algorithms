@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-20 09:12:44 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0wOS0yMDsiMDg6NTM6MzAgIjsyODA5"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0wOS0yMDsiMDk6MTI6NDQgIjsxOzI5MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dividendo, divisor, quociente" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite dividendo:&quot;" newline="True"/>
+            <input variable="dividendo"/>
+            <output expression="&quot;Digite o divisor&quot;" newline="True"/>
+            <input variable="divisor"/>
+            <assign variable="quociente" expression="0"/>
+            <if expression="divisor != 0">
+                <then>
+                    <while expression="dividendo &gt;= divisor">
+                        <assign variable="dividendo" expression="dividendo - divisor"/>
+                        <assign variable="quociente" expression="quociente + 1"/>
+                    </while>
+                    <output expression="&quot;O quociente da divis&#227;o &#233;: &quot; &amp; quociente" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Divis&#227;o por zero n&#227;o &#233; permitida&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

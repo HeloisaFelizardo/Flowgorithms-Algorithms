@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-03 10:59:22 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDgtMDM7IjEwOjIxOjM0ICI7MjgyNw=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDgtMDM7IjEwOjU5OjIyICI7NzsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="SOMA, MEDIA, NUMERO, I" type="Integer" array="False" size=""/>
+            <assign variable="SOMA" expression="0"/>
+            <assign variable="NUMERO" expression="50"/>
+            <assign variable="I" expression="0"/>
+            <while expression="NUMERO &lt;= 70">
+                <if expression="NUMERO % 2 = 0">
+                    <then>
+                        <assign variable="SOMA" expression="SOMA + NUMERO"/>
+                        <assign variable="I" expression="I + 1"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="NUMERO" expression="NUMERO + 1"/>
+            </while>
+            <output expression="&quot;O Resultado da Soma dos valores pares situados na faixa num&#233;rica de 50 at&#233; 70 &#233;: &quot; &amp;SOMA" newline="True"/>
+            <assign variable="MEDIA" expression="SOMA / I"/>
+            <output expression="&quot;A M&#233;dia Aritm&#233;tica dos valores pares situados na faixa num&#233;rica de 50 at&#233; 70 &#233;: &quot; &amp; MEDIA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

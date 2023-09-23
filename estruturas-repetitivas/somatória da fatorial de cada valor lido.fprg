@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-24 06:13:51 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjQ7IjA1OjM5OjAxICI7MjgzNg=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjQ7IjA2OjEzOjUxICI7NzsyOTQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CONTADOR, NUMERO, FATORIAL, SOMATORIO, I" type="Integer" array="False" size=""/>
+            <assign variable="I" expression="1"/>
+            <assign variable="CONTADOR" expression="1"/>
+            <assign variable="SOMATORIO" expression="0"/>
+            <while expression="CONTADOR &lt;= 15">
+                <output expression="&quot;Digite o n&#250;mero inteiro: &quot; &amp; CONTADOR &amp; &quot;:&quot;" newline="True"/>
+                <input variable="NUMERO"/>
+                <assign variable="FATORIAL" expression="1"/>
+                <for variable="I" start="1" end="NUMERO" direction="inc" step="1">
+                    <assign variable="FATORIAL" expression="FATORIAL * I"/>
+                </for>
+                <assign variable="SOMATORIO" expression="SOMATORIO + FATORIAL"/>
+                <assign variable="CONTADOR" expression="CONTADOR + 1"/>
+            </while>
+            <output expression="&quot;O Somat&#243;rio de cada valor lido &#233;: &quot; &amp; SOMATORIO" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

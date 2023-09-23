@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-25 10:29:41 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjQ7IjA0OjM2OjUxICI7MjgzNQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjU7IjEwOjI5OjQxICI7ODsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, D, A2, A3, B2, B3, C2, C3, D2, D3" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="4"/>
+            <assign variable="A2" expression="A % 2"/>
+            <assign variable="A3" expression="A % 3"/>
+            <if expression="A2 = 0 || A3 = 0">
+                <then>
+                    <output expression="A &amp; &quot; &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="A &amp; &quot; N&#195;O &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="B" expression="6"/>
+            <assign variable="B2" expression="B % 2"/>
+            <assign variable="B3" expression="B % 3"/>
+            <if expression="B2 = 0 || B3 = 0">
+                <then>
+                    <output expression="B &amp; &quot; &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="B &amp; &quot; N&#195;O &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="C" expression="12"/>
+            <assign variable="C2" expression="C % 2"/>
+            <assign variable="C3" expression="C % 3"/>
+            <if expression="C2 = 0 || C3 = 0">
+                <then>
+                    <output expression="C &amp; &quot; &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="C &amp; &quot; N&#195;O &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </else>
+            </if>
+            <assign variable="D" expression="9"/>
+            <assign variable="D2" expression="D % 2"/>
+            <assign variable="D3" expression="D % 3"/>
+            <if expression="D2 = 0 || D3 =0">
+                <then>
+                    <output expression="D &amp; &quot; &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="D &amp; &quot; N&#195;O &#201; DIVIS&#205;VEL POR 2 OU 3&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

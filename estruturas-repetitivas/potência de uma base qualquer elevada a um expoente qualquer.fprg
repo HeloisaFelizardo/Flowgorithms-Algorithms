@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-06 09:52:13 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMDY7IjA5OjI5OjA1ICI7Mjg0Mw=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMDY7IjA5OjUyOjEzICI7NzsyOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="B, E, I, P" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero de base&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Digite um n&#250;mero de expoente&quot;" newline="True"/>
+            <input variable="E"/>
+            <assign variable="I" expression="0"/>
+            <assign variable="P" expression="1"/>
+            <while expression="I &lt;= E">
+                <output expression="&quot;O resultado da pot&#234;ncia &#233;: &quot; &amp; P" newline="True"/>
+                <assign variable="P" expression="P * B"/>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

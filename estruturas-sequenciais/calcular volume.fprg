@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-03 12:57:12 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjEyOjQwOjUzICI7MjgyOA=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDM7IjEyOjU3OjEyICI7MTsyOTM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VOLUME, ALTURA, R, P" type="Real" array="False" size=""/>
+            <assign variable="P" expression="3.14159"/>
+            <assign variable="ALTURA" expression="10"/>
+            <assign variable="R" expression="5"/>
+            <assign variable="VOLUME" expression="P * (R * R) * ALTURA"/>
+            <output expression="&quot;O volume &#233;: &quot; &amp; VOLUME" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-20 01:22:05 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjA7IjEyOjEyOjMyICI7MjgyNQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjA7IjAxOjIyOjA1ICI7MjsyOTMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="GT, GA, I" type="Integer" array="False" size=""/>
+            <assign variable="GT" expression="0"/>
+            <assign variable="GA" expression="1"/>
+            <assign variable="I" expression="1"/>
+            <while expression="I &lt;= 64">
+                <assign variable="GT" expression="GT+ GA"/>
+                <output expression="GT" newline="True"/>
+                <assign variable="GT" expression="GT * 2"/>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+            <output expression="GT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

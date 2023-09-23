@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-24 05:18:07 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjQ7IjA0OjM2OjUxICI7MjgzNQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjQ7IjA1OjE4OjA3ICI7NjsyOTUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, D, A2, A3, B2, B3, C2, C3, D2, D3" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="4"/>
+            <assign variable="B" expression="6"/>
+            <assign variable="A2" expression="A % 2"/>
+            <assign variable="A3" expression="A % 3"/>
+            <assign variable="B2" expression="B % 2"/>
+            <assign variable="B3" expression="B % 3"/>
+            <if expression="A2 = 0 &amp;&amp; A3 = 0">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero n&#227;o &#233; divis&#237;vel por 2 e 3&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="B2 = 0 &amp;&amp; B3 = 0">
+                <then>
+                    <output expression="B" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero n&#227;o &#233; divis&#237;vel por 2 e 3&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

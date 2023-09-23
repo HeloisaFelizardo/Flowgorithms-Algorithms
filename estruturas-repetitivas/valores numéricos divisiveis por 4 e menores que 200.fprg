@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-24 11:47:32 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDYtMjQ7IjExOjI1OjM3ICI7MjgzNg=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDYtMjQ7IjExOjQ3OjMyICI7MjsyOTQ0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, R" type="Integer" array="False" size=""/>
+            <assign variable="I" expression="1"/>
+            <while expression="I &lt;= 200">
+                <assign variable="R" expression="I % 4"/>
+                <if expression="R = 0">
+                    <then>
+                        <output expression="I" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

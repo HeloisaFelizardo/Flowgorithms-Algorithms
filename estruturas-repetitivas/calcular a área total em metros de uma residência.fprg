@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-12 11:31:37 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDgtMTI7IjEwOjU3OjUxICI7MjgzNQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDgtMTI7IjExOjMxOjM3ICI7NjsyOTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TOTAL, LARGURA, COMPRIMENTO, AREA" type="Integer" array="False" size=""/>
+            <declare name="RESP, NOME" type="String" array="False" size=""/>
+            <assign variable="TOTAL" expression="0"/>
+            <assign variable="AREA" expression="0"/>
+            <assign variable="RESP" expression="&quot;s&quot;"/>
+            <while expression="RESP = &quot;s&quot;">
+                <output expression="&quot;Escreva o nome do comodo: &quot;" newline="True"/>
+                <input variable="NOME"/>
+                <output expression="&quot;Escreva a largura do c&#244;modo:&quot;" newline="True"/>
+                <input variable="LARGURA"/>
+                <output expression="&quot;Escreva o comprimento do comodo:&quot;" newline="True"/>
+                <input variable="COMPRIMENTO"/>
+                <assign variable="AREA" expression="LARGURA * COMPRIMENTO"/>
+                <output expression="&quot;&#193;rea &quot; &amp; NOME &amp; &quot;: &quot; &amp; AREA &amp; &quot; metros quadrados.&quot;" newline="True"/>
+                <assign variable="TOTAL" expression="TOTAL + AREA"/>
+                <output expression="&quot;Deseja continuar?&quot;" newline="True"/>
+                <input variable="RESP"/>
+            </while>
+            <output expression="&quot;&#193;rea total da resid&#234;ncia: &quot; &amp; TOTAL &amp; &quot; metros quadrados.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

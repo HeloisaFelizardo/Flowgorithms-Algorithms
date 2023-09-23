@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-25 11:02:24 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjU7IjEwOjI5OjQzICI7MjgzNg=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjU7IjExOjAyOjI0ICI7NDsyOTM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, D, E" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="15"/>
+            <assign variable="B" expression="3"/>
+            <assign variable="C" expression="5"/>
+            <assign variable="D" expression="12"/>
+            <assign variable="E" expression="7"/>
+            <if expression="A &lt; B &amp;&amp; A &lt; C &amp;&amp; A &lt; D &amp;&amp; A &lt; E">
+                <then>
+                    <output expression="A &amp; &quot; &#201; O MENOR VALOR ENCONTRADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="A &gt; B &amp;&amp; A &gt; C &amp;&amp; A &gt; D &amp;&amp; A &gt; E">
+                        <then>
+                            <output expression="A &amp; &quot; &#201; O MAIOR VALOR ENCONTRADO&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="B &lt; A &amp;&amp; B &lt; C &amp;&amp; B &lt; D &amp;&amp; B &lt; E">
+                <then>
+                    <output expression="B &amp; &quot; &#201; O MENOR VALOR ENCONTRADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="B &gt; A &amp;&amp; B &gt; C &amp;&amp; B &gt; D &amp;&amp; B &gt; E">
+                        <then>
+                            <output expression="B &amp; &quot; &#201; O MAIOR VALOR ENCONTRADO&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="C &lt; A &amp;&amp; C &lt; B &amp;&amp; C &lt; D &amp;&amp; C &lt; E">
+                <then>
+                    <output expression="C &amp; &quot; &#201; O MENOR VALOR ENCONTRADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="C &gt; A &amp;&amp; C &gt; B &amp;&amp; C &gt; D &amp;&amp; C &gt; E">
+                        <then>
+                            <output expression="C &amp; &quot; &#201; O MAIOR VALOR ENCONTRADO&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="D &lt; A &amp;&amp; D &lt; B &amp;&amp; D &lt; C &amp;&amp; D &lt; E">
+                <then>
+                    <output expression="D &amp; &quot; &#201; O MENOR VALOR ENCONTRADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="D &gt; A &amp;&amp; D &gt; B &amp;&amp; D &gt; C &amp;&amp; D &gt; E">
+                        <then>
+                            <output expression="D &amp; &quot; &#201; O MAIOR VALOR ENCONTRADO&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <if expression="E &lt; A &amp;&amp; E &lt; B &amp;&amp; E &lt; C &amp;&amp; E &lt; D">
+                <then>
+                    <output expression="E &amp; &quot; &#201; O MENOR VALOR ENCONTRADO&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="E &gt; A &amp;&amp; E &gt; B &amp;&amp; E &gt; C &amp;&amp; E &gt; D">
+                        <then>
+                            <output expression="E &amp; &quot; &#201; O MAIOR VALOR ENCONTRADO&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

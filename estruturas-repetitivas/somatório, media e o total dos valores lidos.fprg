@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-28 12:26:24 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjg7IjExOjU4OjUyICI7Mjg0NA=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDctMjg7IjEyOjI2OjI0ICI7NjsyOTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, N, SOMA, MEDIA" type="Real" array="False" size=""/>
+            <assign variable="I" expression="0"/>
+            <assign variable="SOMA" expression="0"/>
+            <assign variable="N" expression="0"/>
+            <while expression="N &gt;= 0">
+                <output expression="&quot;DIGITE UM NUMERO: &quot;" newline="True"/>
+                <input variable="N"/>
+                <assign variable="SOMA" expression="SOMA + N"/>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+            <output expression="&quot;SOMAT&#211;RIO: &quot; &amp; SOMA" newline="True"/>
+            <assign variable="MEDIA" expression="SOMA / I"/>
+            <output expression="&quot;M&#201;DIA: &quot; &amp; MEDIA" newline="True"/>
+            <output expression="&quot;TOTAL DE VALORES LIDOS: &quot; &amp; I" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

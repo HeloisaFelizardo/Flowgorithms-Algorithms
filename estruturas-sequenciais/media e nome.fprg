@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-09 05:52:54 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDMtMDk7IjA1OjI3OjE2ICI7MjgzOA=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDMtMDk7IjA1OjUyOjU0ICI7MTsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;qual &#233; a nota 1?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;qual &#233; a nota 2?&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;qual &#233; a nota 3?&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;qual &#233; a nota 4?&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <output expression="&quot;qual &#233; seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4) /4"/>
+            <output expression="&quot;sua media &#233;: &quot; &amp; media &amp; &quot; seu nome &#233;: &quot; &amp; nome" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

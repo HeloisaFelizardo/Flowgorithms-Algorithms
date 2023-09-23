@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-06 10:39:00 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDY7IjEwOjA2OjM3ICI7MjgzMw=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDY7IjEwOjM5OjAwICI7MTA7Mjk4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R, US, QUANTIDADEDOLAR, QUANTIDADEREAL" type="Real" array="False" size=""/>
+            <assign variable="R" expression="1"/>
+            <assign variable="US" expression="0.202358"/>
+            <assign variable="QUANTIDADEDOLAR" expression="1000"/>
+            <assign variable="QUANTIDADEREAL" expression="(QUANTIDADEDOLAR*R)/US"/>
+            <output expression="&quot;Quantidade de reais &#233;: &quot; &amp; QUANTIDADEREAL" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

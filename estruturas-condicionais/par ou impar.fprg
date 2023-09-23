@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-28 07:25:38 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjg7IjA2OjAxOjE1ICI7MjgzMw=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjg7IjA3OjI1OjM4ICI7NDsyOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, R" type="Integer" array="False" size=""/>
+            <assign variable="N" expression="11"/>
+            <if expression="N % 2 == 0">
+                <then>
+                    <output expression="N &amp; &quot; &#201; PAR&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="N &amp; &quot; &#201; IMPAR&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

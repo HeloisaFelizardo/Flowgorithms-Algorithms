@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-24 11:47:26 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDYtMjQ7IjExOjM5OjQ4ICI7Mjg0Mw=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDYtMjQ7IjExOjQ3OjI2ICI7MjsyOTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, SOMA, R" type="Integer" array="False" size=""/>
+            <assign variable="I" expression="1"/>
+            <assign variable="SOMA" expression="0"/>
+            <while expression="I &lt;= 500">
+                <assign variable="R" expression="I % 2"/>
+                <if expression="R = 0">
+                    <then>
+                        <assign variable="SOMA" expression="SOMA + I"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="I" expression="I + 1"/>
+            </while>
+            <output expression="SOMA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

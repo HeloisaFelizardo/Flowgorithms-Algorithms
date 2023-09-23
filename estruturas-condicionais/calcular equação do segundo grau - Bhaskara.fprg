@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-24 12:37:33 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjQ7IjExOjEwOjU3ICI7MjgzMQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMjQ7IjEyOjM3OjMzICI7MTI7Mjk5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, DELTA, X1, X2, X" type="Real" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <assign variable="B" expression="2"/>
+            <assign variable="C" expression="2"/>
+            <if expression="A &lt;&gt; 0 &amp;&amp; B &lt;&gt; 0 &amp;&amp; C &lt;&gt; 0">
+                <then>
+                    <assign variable="DELTA" expression="B ^ 2 - 4 * A * C"/>
+                    <output expression="DELTA" newline="True"/>
+                    <if expression="DELTA &lt; 0">
+                        <then>
+                            <output expression="&quot;N&#227;o h&#225; solu&#231;&#227;o real para a equa&#231;&#227;o.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="DELTA &gt; 0">
+                                <then>
+                                    <assign variable="X1" expression="( -B + DELTA ^ ( 1 / 2 )) / ( 2 * A )"/>
+                                    <assign variable="X2" expression="( - B - DELTA ^ ( 1 / 2 )) / ( 2 * A )"/>
+                                    <output expression="&quot;As duas solu&#231;&#245;es reais e diferentes s&#227;o: &quot; &amp; X1 &amp; &quot; e &quot; &amp; X2" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="X" expression="- B / 2 * A"/>
+                                    <output expression="&quot;A &#250;nica solu&#231;&#227;o real &#233;: &quot; &amp; X" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;A equa&#231;&#227;o n&#227;o &#233; completa. Certifique-se de que A, B e C sejam diferentes de zero.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC GAMER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-07 08:41:56 "/>
+        <attribute name="created" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDc7IjEyOjQwOjQzICI7MjgzMQ=="/>
+        <attribute name="edited" value="UEMgR0FNRVI7REVTS1RPUC1IRUxPSVNBOzIwMjMtMDUtMDc7IjA4OjQxOjU2ICI7ODsyOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, VOTOSNULOS, VOTOSBRANCO, TOTALELEITORES, VOTOSVALIDOS, PA, PB, PC, PNULO, PBRANCO" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="25"/>
+            <assign variable="B" expression="35"/>
+            <assign variable="C" expression="45"/>
+            <assign variable="VOTOSNULOS" expression="20"/>
+            <assign variable="VOTOSBRANCO" expression="25"/>
+            <assign variable="TOTALELEITORES" expression="150"/>
+            <output expression="&quot;O n&#250;mero total de eleitores &#233;: &quot; &amp; TOTALELEITORES" newline="True"/>
+            <assign variable="VOTOSVALIDOS" expression="((A + B + C) / TOTALELEITORES) * 100"/>
+            <output expression="&quot;O percentual de votos v&#225;lidos &#233;: &quot; &amp; VOTOSVALIDOS &amp; &quot;%&quot;" newline="True"/>
+            <assign variable="PA" expression="(A / TOTALELEITORES) * 100"/>
+            <output expression="&quot;O percentual de votos v&#225;lidos para o candidato A &#233;: &quot; &amp; PA   &amp; &quot;%&quot;" newline="True"/>
+            <assign variable="PB" expression="(B / TOTALELEITORES) * 100"/>
+            <output expression="&quot;O percentuall de votos v&#225;lidos para o candidato B &#233;: &quot; &amp; PB   &amp; &quot;%&quot;" newline="True"/>
+            <assign variable="PC" expression="(C / TOTALELEITORES) * 100"/>
+            <output expression="&quot;O percentual de votos v&#225;lidos para o cadidato C &#233;: &quot;&amp; PC   &amp; &quot;%&quot;" newline="True"/>
+            <assign variable="PBRANCO" expression="(VOTOSBRANCO / TOTALELEITORES) * 100"/>
+            <output expression="&quot;O percentual de votos em branco &#233;: &quot;&amp; PBRANCO &amp; &quot;%&quot;" newline="True"/>
+            <assign variable="PNULO" expression="(VOTOSNULOS / TOTALELEITORES) * 100"/>
+            <output expression="&quot;O percentual de votos nulos &#233;: &quot; &amp; PNULO  &amp; &quot;%&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

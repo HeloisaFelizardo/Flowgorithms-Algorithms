@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-14 10:16:28 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0wOS0xNDsiMDk6NDA6NTcgIjsyODE4"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0wOS0xNDsiMTA6MTY6MjggIjsxMDsyOTY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, MAIOR, MENOR" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="MAIOR" expression="N"/>
+            <assign variable="MENOR" expression="N"/>
+            <while expression="N &gt;= 0">
+                <if expression="N &gt; MAIOR">
+                    <then>
+                        <assign variable="MAIOR" expression="N"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="N &lt; MENOR">
+                    <then>
+                        <assign variable="MENOR" expression="N"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+                <input variable="N"/>
+            </while>
+            <output expression="&quot;Maior n&#250;mero encontrado: &quot; &amp; MAIOR" newline="True"/>
+            <output expression="&quot;Menor n&#250;mero encontrado: &quot; &amp; MENOR" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
