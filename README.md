@@ -2,4 +2,4 @@
 
 Algorithms created with the [Flowgorithm](http://flowgorithm.org/) program.
 
-[Flowgorithm](http://flowgorithm.org/download/index.html) - Flowchart Programing Languages Download
+Flowgorithm - Flowchart Programing Languages [Download](http://flowgorithm.org/download/index.html)
