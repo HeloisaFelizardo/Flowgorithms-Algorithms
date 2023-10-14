@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 02:34:03 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMTI6Mzc6MDEgIjsyODAy"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMDI6MzQ6MDMgIjs5OzI5MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="True" size="11"/>
+            <declare name="I, N" type="Integer" array="False" size=""/>
+            <input variable="N"/>
+            <for variable="I" start="0" end="10" direction="inc" step="1">
+                <assign variable="A[I]" expression="N * I"/>
+            </for>
+            <for variable="I" start="0" end="10" direction="inc" step="1">
+                <output expression="N &amp; &quot; x &quot; &amp; I &amp; &quot; = &quot; &amp; A[I]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 11:24:19 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wMzsiMDk6MTE6MTEgIjsyNzk2"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wMzsiMTE6MjQ6MTkgIjsxNjsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, SOMA" type="Integer" array="False" size=""/>
+            <declare name="A" type="Integer" array="True" size="5 + 1"/>
+            <assign variable="SOMA" expression="0"/>
+            <for variable="I" start="1" end="5" direction="inc" step="1">
+                <input variable="A[I]"/>
+                <if expression="A[I] % 2 != 0">
+                    <then>
+                        <assign variable="SOMA" expression="SOMA + A[I]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="SOMA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

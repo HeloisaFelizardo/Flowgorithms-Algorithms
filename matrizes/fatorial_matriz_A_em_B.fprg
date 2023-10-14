@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 04:23:51 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wMzsiMTI6MjU6MDggIjsyODAx"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wNjsiMDQ6MjM6NTEgIjszOzI5MTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, J" type="Integer" array="False" size=""/>
+            <declare name="A, B" type="Integer" array="True" size="15"/>
+            <for variable="I" start="0" end="14" direction="inc" step="1">
+                <input variable="A[I]"/>
+            </for>
+            <for variable="I" start="0" end="14" direction="inc" step="1">
+                <assign variable="B[I]" expression="1"/>
+                <for variable="J" start="1" end="A[I]" direction="inc" step="1">
+                    <assign variable="B[I]" expression="B[I] * J"/>
+                </for>
+            </for>
+            <for variable="I" start="0" end="14" direction="inc" step="1">
+                <output expression="A[I]" newline="True"/>
+                <output expression="B[I]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

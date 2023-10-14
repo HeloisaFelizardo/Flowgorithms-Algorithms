@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 01:58:19 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMTI6Mzc6MDEgIjsyODAy"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMDE6NTg6MTkgIjs5OzI5Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="True" size="10"/>
+            <declare name="I" type="Integer" array="False" size=""/>
+            <for variable="I" start="0" end="9" direction="inc" step="1">
+                <input variable="A[I]"/>
+            </for>
+            <for variable="I" start="0" end="9" direction="inc" step="1">
+                <assign variable="B[I]" expression="A[I] / 2"/>
+            </for>
+            <for variable="I" start="0" end="9" direction="inc" step="1">
+                <output expression="A[I]" newline="True"/>
+            </for>
+            <for variable="I" start="0" end="9" direction="inc" step="1">
+                <output expression="B[I]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

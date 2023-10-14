@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 06:03:48 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMDM6MDQ6MzAgIjsyNzk4"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMDY6MDM6NDggIjs0OzI5MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Real" array="True" size="25"/>
+            <declare name="I" type="Integer" array="False" size=""/>
+            <for variable="I" start="0" end="24" direction="inc" step="1">
+                <input variable="A[I]"/>
+                <assign variable="B[I]" expression="A[I] * (9/5) + 32"/>
+            </for>
+            <for variable="I" start="0" end="24" direction="inc" step="1">
+                <output expression="A[I] &amp; &quot; C&#176;&quot;" newline="True"/>
+            </for>
+            <for variable="I" start="0" end="24" direction="inc" step="1">
+                <output expression="B[I] &amp; &quot; F&#176;&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

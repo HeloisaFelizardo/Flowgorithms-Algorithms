@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 01:42:41 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wNjsiMDE6MzM6MjEgIjsyNzk2"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wNjsiMDE6NDI6NDEgIjsxOzI5MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I" type="Integer" array="False" size=""/>
+            <declare name="A" type="String" array="True" size="20"/>
+            <declare name="B" type="String" array="True" size="30"/>
+            <declare name="C" type="String" array="True" size="50"/>
+            <for variable="I" start="0" end="19" direction="inc" step="1">
+                <input variable="A[I]"/>
+                <assign variable="C[I]" expression="A[I]"/>
+            </for>
+            <for variable="I" start="0" end="29" direction="inc" step="1">
+                <input variable="B[I]"/>
+            </for>
+            <for variable="I" start="20" end="49" direction="inc" step="1">
+                <assign variable="C[I]" expression="B[I - 20]"/>
+            </for>
+            <output expression="&quot;MATRIZ C: &quot;" newline="True"/>
+            <for variable="I" start="0" end="49" direction="inc" step="1">
+                <output expression="C[I]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

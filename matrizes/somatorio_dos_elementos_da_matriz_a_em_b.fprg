@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 12:21:18 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMTE6NDU6MjEgIjsyODAy"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMTI6MjE6MTggIjszOzI5MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="True" size="20"/>
+            <declare name="I, J, SOMA" type="Integer" array="False" size=""/>
+            <for variable="I" start="0" end="19" direction="inc" step="1">
+                <input variable="A[I]"/>
+            </for>
+            <for variable="I" start="0" end="19" direction="inc" step="1">
+                <assign variable="SOMA" expression="0"/>
+                <for variable="J" start="0" end="A[I]" direction="inc" step="1">
+                    <assign variable="SOMA" expression="SOMA + J"/>
+                </for>
+                <assign variable="B[I]" expression="SOMA"/>
+            </for>
+            <for variable="I" start="0" end="19" direction="inc" step="1">
+                <output expression="B[I]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

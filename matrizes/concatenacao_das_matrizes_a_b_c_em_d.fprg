@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 11:43:43 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMTE6MzQ6NTQgIjsyODA2"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wODsiMTE6NDM6NDMgIjszOzI5MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I" type="Integer" array="False" size=""/>
+            <declare name="A, B, C" type="Real" array="True" size="5"/>
+            <declare name="D" type="Real" array="True" size="15"/>
+            <for variable="I" start="0" end="4" direction="inc" step="1">
+                <input variable="A[I]"/>
+            </for>
+            <for variable="I" start="0" end="4" direction="inc" step="1">
+                <input variable="B[I]"/>
+            </for>
+            <for variable="I" start="0" end="4" direction="inc" step="1">
+                <input variable="C[I]"/>
+            </for>
+            <for variable="I" start="0" end="4" direction="inc" step="1">
+                <assign variable="D[I]" expression="A[I]"/>
+                <assign variable="D[I + 5]" expression="B[I]"/>
+                <assign variable="D[I + 10]" expression="C[I]"/>
+            </for>
+            <for variable="I" start="0" end="14" direction="inc" step="1">
+                <output expression="D[I]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

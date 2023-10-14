@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HELOISA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-03 11:22:18 "/>
+        <attribute name="created" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wMzsiMTE6MDk6NTMgIjsyODAy"/>
+        <attribute name="edited" value="SEVMT0lTQTtERVNLVE9QLUhFTE9JU0E7MjAyMy0xMC0wMzsiMTE6MjI6MTggIjsyOzI5MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, I, SOMA" type="Integer" array="False" size=""/>
+            <output expression="&quot;QUAL &#201; A QUANTIDADE DE ELEMENTOS?&quot;" newline="True"/>
+            <input variable="N"/>
+            <declare name="A" type="Integer" array="True" size="N + 1"/>
+            <assign variable="SOMA" expression="0"/>
+            <for variable="I" start="1" end="N" direction="inc" step="1">
+                <output expression="I" newline="True"/>
+                <input variable="A[I]"/>
+                <if expression="A[I] % 2 = 0">
+                    <then>
+                        <assign variable="SOMA" expression="SOMA + A[I]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="SOMA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
