@@ -4,7 +4,7 @@ Algoritmos criados com o programa [Flowgorithm](http://flowgorithm.org/).
 
 Flowgorithm - Flowchart Programing Languages [Download](http://flowgorithm.org/download/index.html)
 
-[VisualG](http://visualg3.com.br/)
+Algoritmos criado com [VisualG](http://visualg3.com.br/)
 
 ## Instruções
 
