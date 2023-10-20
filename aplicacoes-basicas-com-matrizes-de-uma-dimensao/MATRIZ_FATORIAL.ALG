@@ -18,7 +18,7 @@ fimpara
 // trecho para calcular a fatorial
 para i de 1 ate 15 faca
        B[i] <- 1
-       para de j ate A[i] faca
+       para j de 1 ate A[i] faca
            B[i] <- B[i] * j
        fimpara
 fimpara
