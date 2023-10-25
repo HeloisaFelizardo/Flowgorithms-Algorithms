@@ -1,5 +1,11 @@
 # Algoritmos com Fluxogramas
 
+## Exercícios propostos do livro:
+
+## Algoritmos - Lógica para desenvolvimento de programação de computadores
+
+### (José Augusto N. G. Manzano/ Jaya Fiqueiredo de Oliveira)
+
 Algoritmos criados com o programa [Flowgorithm](http://flowgorithm.org/).
 
 Flowgorithm - Flowchart Programing Languages [Download](http://flowgorithm.org/download/index.html)
