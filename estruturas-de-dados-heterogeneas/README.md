@@ -4,9 +4,9 @@
 
 ### Exercícios propostos do livro:
 
-### Algoritmos - Lógica para desenvolvimento de programação de computadores
+- Algoritmos - Lógica para desenvolvimento de programação de computadores
 
-### (José Augusto N. G. Manzano/ Jaya Fiqueiredo de Oliveira)
+- (José Augusto N. G. Manzano/ Jaya Fiqueiredo de Oliveira)
 
 ## Instruções
 
