@@ -15,3 +15,5 @@ Algoritmos criado com [VisualG](http://visualg3.com.br/)
 ## Instruções
 
 Você pode baixar o programa, baixar os arquivos e abrí-los no [Flowgorithm](http://flowgorithm.org/) e [VisualG](http://visualg3.com.br/)
+
+Obs: A partir das estruturas de dados heterogeneas, os Algoritmos estão em JavaScript.
