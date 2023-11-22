@@ -1,5 +1,8 @@
 // PROGRAMA: "LEITURA E ESCRITA DE REGISTRO DE CONJUNTOS"
-/* A leitura dos elementos da matriz de registros será feita com dois laços, pois, além de controlar a entrada das 4 notas de cada aluno, é necessário controlar a entrada de 8 alunos. Essa estrutura é bastante similar a uma matriz de duas dimensões. O laço da variável "i" controla o número de alunos da turma, no caso oito, e o laço da variavel "j" controla o número de notas, até quatro por aluno. Para cada movimentação de mais um na variável "i" existem quatro movimentações na variável "j" */
+/* A leitura dos elementos da matriz de registros será feita com dois laços, pois, além de controlar a entrada das 4 notas de cada aluno, é necessário 
+controlar a entrada de 8 alunos. Essa estrutura é bastante similar a uma matriz de duas dimensões. O laço da variável "i" controla o número de alunos 
+da turma, no caso oito, e o laço da variavel "j" controla o número de notas, até quatro por aluno. Para cada movimentação de mais um na variável "i" 
+existem quatro movimentações na variável "j" */
 
 const prompt = require('prompt-sync')();
 

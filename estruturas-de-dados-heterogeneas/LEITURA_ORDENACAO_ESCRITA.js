@@ -1,9 +1,11 @@
 /* PROGRAMA: "LEITURA ORDENAÇÃO ESCRITA" 
-Desenvolver um programa que leia quatro notas bimestrais de oito alunos e apresente no final os registros desses alunos ordenados alfabeticamente pelo campo nome de forma ascendente.
+Desenvolver um programa que leia quatro notas bimestrais de oito alunos e apresente no final os registros desses 
+alunos ordenados alfabeticamente pelo campo nome de forma ascendente.
 */
 const prompt = require('prompt-sync')();
 
-/* Aqui, são definidos dois "tipos". O BIMESTRE é simplesmente um array de tamanho 4. O CAD_ALUNO é uma classe que representa um registro (ou struct) com campos NOME, TURMA, SALA, e NOTA (um array de bimestres). */
+/* Aqui, são definidos dois "tipos". O BIMESTRE é simplesmente um array de tamanho 4. O CAD_ALUNO é uma classe que 
+representa um registro (ou struct) com campos NOME, TURMA, SALA, e NOTA (um array de bimestres). */
 // Definindo o tipo BIMESTRE
 const BIMESTRE = new Array(4);
 
@@ -17,7 +19,8 @@ class CAD_ALUNO {
 	}
 }
 
-/* ALUNO é um array que vai armazenar os dados de até 8 alunos. I e J são variáveis de controle para loops, e X é uma instância de CAD_ALUNO que será usada para realizar a troca de elementos durante a ordenação. */
+/* ALUNO é um array que vai armazenar os dados de até 8 alunos. I e J são variáveis de controle para loops, e X é uma instância 
+de CAD_ALUNO que será usada para realizar a troca de elementos durante a ordenação. */
 // Declarando variáveis
 const ALUNO = new Array(8);
 let I, J;
@@ -38,7 +41,8 @@ for (I = 0; I < 8; I++) {
 	}
 }
 
-/* Este trecho implementa um algoritmo de ordenação chamado Bubble Sort, que ordena os registros (CAD_ALUNO) no array ALUNO com base no campo NOME. */
+/* Este trecho implementa um algoritmo de ordenação chamado Bubble Sort, que ordena os registros (CAD_ALUNO) no array ALUNO 
+com base no campo NOME. */
 // Trecho de ordenação de dados heterogêneos
 for (I = 0; I < 7; I++) {
 	for (J = I + 1; J < 8; J++) {
